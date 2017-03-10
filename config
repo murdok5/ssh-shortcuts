@@ -5,12 +5,12 @@ host slice-master
 
 host slice-gitlab
   HostName slice-gitlab
-  user ec2-user
+  user centos
   IdentityFile ~/.ssh/slice_mikesmith_tse.pem
 
 host slice-centos7a
   HostName slice-centos7a
-  user ec2-user 
+  user centos 
   IdentityFile ~/.ssh/slice_mikesmith_tse.pem
 
 host slice-centos7b
@@ -20,40 +20,40 @@ host slice-centos7b
 
 host slice-centos6a
   HostName slice-centos6a
-  user ec2-user
+  user centos
   IdentityFile ~/.ssh/slice_mikesmith_tse.pem
 
 host slice-centos6b
   HostName slice-centos6b
-  user ec2-user
+  user centos
   IdentityFile ~/.ssh/slice_mikesmith_tse.pem
 
 host slice-rgbank-app01
   HostName slice-rgbank-app01
-  user ec2-user
+  user centos
   IdentityFile ~/.ssh/slice_mikesmith_tse.pem
 
 host slice-rgbank-app02
   HostName slice-rgbank-
-  user ec2-user
+  user centos
   IdentityFile ~/.ssh/slice_mikesmith_tse.pem
 
 host slice-rgbank-app02
   HostName slice-rgbank-
-  user ec2-user
+  user centos
   IdentityFile ~/.ssh/slice_mikesmith_tse.pem
 
 host slice-rgbank-db
   HostName slice-rgbank-db
-  user ec2-user
+  user centos
   IdentityFile ~/.ssh/slice_mikesmith_tse.pem
 
 host slice-rgbank-dev
   HostName slice-rgbank-dev
-  user ec2-user
+  user centos
   IdentityFile ~/.ssh/slice_mikesmith_tse.pem
 
 host slice-rgbank-lb
   HostName slice-rgbank-lb
-  user ec2-user
+  user centos
   IdentityFile ~/.ssh/slice_mikesmith_tse.pem
